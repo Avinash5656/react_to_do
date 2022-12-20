@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(128, 152, 221);
+  background-color: #49959a;
 }
 
 .main-div{
@@ -17,12 +17,17 @@ body{
 
 .fonticon{
   font-size: xx-large;
-  color: blue;
+  color: rgb(8, 8, 119);
+  margin: 4px;
+  padding: 4px;
 }
 
 .fonticon:hover{
   color: darkgreen;
   cursor: pointer;
+  background-color: white;
+  border-radius: 15px;
+  
   
 }
 
@@ -32,6 +37,7 @@ body{
   border-top: 10px;
   border-radius: 3px;
   padding: 12px;
+  width: 40vh;
 }
 
 .remove-div{
@@ -42,9 +48,11 @@ body{
   color: red;
   
 }
-
+.delicon{
+  margin: 4px;
+}
 .remove{
-  border: 1px solid purple;
+  border: 1px solid rgb(203, 164, 203);
   border-radius: 5px;
   padding: 12px;
   margin: 12px;
@@ -53,4 +61,10 @@ body{
 .remove:hover{
   background-color: rgb(210, 35, 35);
   cursor: pointer;
+}
+
+.each-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

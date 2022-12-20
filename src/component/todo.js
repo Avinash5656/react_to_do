@@ -48,7 +48,7 @@ const Todo = () => {
 
           <h2>Add your task's below</h2>
           <div className='additems'>
-            <input type="text" placeholder='add here' className='inputbox'
+            <input type="text" placeholder='Add here' className='inputbox'
               value={inputdata}
               onChange={(e) => setInputdata(e.target.value)}
             />
