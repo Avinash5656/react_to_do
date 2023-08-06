@@ -1,5 +1,5 @@
 body{
-  background-color: #49959a;
+  background-color: #3ee1ad;
 }
 
 .main-div{
@@ -33,11 +33,14 @@ body{
 
 
 .show-item{
-  background-color: rebeccapurple;
+  background-color: #C2F2C7;
   border-top: 10px;
   border-radius: 3px;
   padding: 12px;
   width: 40vh;
+  border-style: groove;
+  border-color: #1CBA2E;
+  
 }
 
 .remove-div{
@@ -51,12 +54,41 @@ body{
 .delicon{
   margin: 4px;
 }
+
 .remove{
-  border: 1px solid rgb(203, 164, 203);
-  border-radius: 5px;
+  background-color: #03faac;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  font-size: 14px;
   padding: 12px;
   margin: 12px;
+  border-radius: 4px;
 }
+
+.additems{
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn{
+  background-color: #1CBA2E;
+  margin-top: 14px;
+  height: 40px;
+  width: 90px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.add-btn:hover{
+  cursor: pointer;
+}
+
+.trash-can{
+  margin: 14px;
+ 
+}
+
 
 .remove:hover{
   background-color: rgb(210, 35, 35);
@@ -68,3 +100,9 @@ body{
   flex-direction: row;
   align-items: center;
 }
+
+.heading{
+  font-size: 28px;
+}
+
+
