@@ -11,8 +11,9 @@ body{
 
 .inputbox{
   border-radius: 3px;
-  padding: 19px;
-  font-size: x-large;
+  padding: 10px;
+  font-size: large;
+  
 }
 
 .fonticon{
@@ -34,11 +35,11 @@ body{
 
 .show-item{
   background-color: #C2F2C7;
-  border-top: 10px;
+  margin-top: 7px;
   border-radius: 3px;
   padding: 12px;
   width: 40vh;
-  border-style: groove;
+  border-style: solid;
   border-color: #1CBA2E;
   
 }
@@ -74,6 +75,7 @@ body{
 .add-btn{
   background-color: #1CBA2E;
   margin-top: 14px;
+
   height: 40px;
   width: 90px;
   border-radius: 4px;
@@ -101,8 +103,13 @@ body{
   align-items: center;
 }
 
-.heading{
-  font-size: 28px;
-}
+@media only screen and (max-width: 768px) {
+  .inputbox {
+    width: 100%;
+  }
 
+  .show-item {
+    width: 100%;
+  }
+}
 

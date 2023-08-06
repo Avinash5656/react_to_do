@@ -65,7 +65,7 @@ const Todo = () => {
         <div className='child-div'>
 
 
-          <h2 className='heading'>Task Planner</h2>
+          <h1 className='heading'>Task Planner</h1>
           <div className='additems'>
             <input type="text" placeholder='Type something' className='inputbox'
               value={inputdata}
@@ -74,6 +74,8 @@ const Todo = () => {
             />
             <div><button onClick={additem} className='add-btn'>Add</button></div>
           </div>
+
+          <h2>Your Tasks</h2>
 
 
 
